@@ -1,0 +1,14 @@
+# ninja log v5
+1	125344	1704528309	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda.o	f1cb0125519acf84
+1	167616	1704528352	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+37	61154	1704528662	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+45	62007	1704528926	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+660	61930	1704529114	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+45	60637	1704529212	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+652	61755	1704529394	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+660	62876	1704529934	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+655	61781	1704530597	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+37	61882	1704531329	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+661	61707	1704531467	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+664	62352	1704531633	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
+701	61730	1704532653	/research/d4/gds/jzmiao22/landmark/dino-vit-features-main/build/temp.linux-x86_64-cpython-310/bin_cuda_kernel.o	feac5168bcc641a5
