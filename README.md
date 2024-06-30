@@ -14,7 +14,7 @@ Please see requirements.txt
    ```
    python data_generate.py
    ```
-   Before running the code, related paths should be set appropriately. (1) Line 41 of the data_generate.py, the path of the diretory "dataset/Cephalometric/" should be provided. (2) Line 57 of the data_generate.py, the path of the diretory "data/head" should be provided. Accordingly, Line 13, 14 of the datasets/head_train.py, the path of the diretory "data/head" should be provided.
+   Before running the code, related paths should be set appropriately. (1) Line 41 of the "data_generate.py", the path of the diretory "dataset/Cephalometric/" should be provided. (2) Line 57 of the "data_generate.py", the path of the diretory "data/head" should be provided. Accordingly, Line 13, 14 of the "datasets/head_train.py", the path of the diretory "data/head" should be provided.
 
 2. Train the global branch:
    Please prepare a GPU and run the following code. Our training is conducted on an A40 GPU with 46 GB GPU memory.
