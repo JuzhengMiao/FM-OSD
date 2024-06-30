@@ -2,7 +2,7 @@
 
 ### Introduction
 
-We provide the codes for FM-OSD on the Head Dataset.
+We provide the codes for FM-OSD on the Head Dataset here.
 ### Requirements
 Please see requirements.txt
 
