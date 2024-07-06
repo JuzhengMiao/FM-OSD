@@ -17,7 +17,17 @@ Please see requirements.txt
    ```
    Before running the code, related paths should be set appropriately. (1) Line 41 of the "data_generate.py", the path of the diretory "dataset/Cephalometric/" should be provided. (2) Line 57 of the "data_generate.py", the path of the diretory "data/head" should be provided. Accordingly, Line 13, 14 of the "datasets/head_train.py", the path of the diretory "data/head" should be provided.
 
-2. Train the global branch:
+2. Compile the Cuda code:
+
+   In our codes, we implement the feature descriptor with cuda for acceleration. To make sure the following codes can be run correctly, we need to compile the cuda code first.
+
+   (1) Enter the folder with the "setup.py".
+   (2) Run the following code.
+   ```
+   python setup.py install
+   ```
+
+3. Train the global branch:
 
    Please prepare a GPU and run the following code. Our training is conducted on an A40 GPU with 46 GB GPU memory.
    ```
@@ -25,7 +35,7 @@ Please see requirements.txt
    ```
    Before running the code, related paths should be set appropriately. (1) Line 184, please provide the path of the "output" folder. (2) Line 199, the path of the diretory "dataset/Cephalometric/" should be provided. (3) Line 208, the name of the experiment should be provided. (4) Line 240, the path of the "models" folder should be provided.
 
-3. Train the local branch:
+4. Train the local branch:
 
    Please prepare a GPU and run the following code. Our training is conducted on an A40 GPU with 46 GB GPU memory.
    ```
@@ -33,7 +43,7 @@ Please see requirements.txt
    ```
    Before running the code, related paths should be set appropriately. (1) Line 205, please provide the path of the "output" folder. (2) Line 221, the path of the diretory "dataset/Cephalometric/" should be provided. (3) Line 233, the name of the experiment should be provided. (4) Line 266, the path of the "models" folder should be provided.
 
-4. Test the model:
+5. Test the model:
 
    We provide the model weights of the global branch and local branch in the "models" folder, denoted as "model_post_iter_9450.pth" and "model_post_fine_iter_20.pth", respectively.
    Please prepare a GPU and run the following code. Our testing is conducted on an A40 GPU with 46 GB GPU memory.
