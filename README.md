@@ -58,6 +58,13 @@ This code is based on the framework of [dino-vit-features](https://github.com/Sh
 ## Citation
 If you find the code useful for your research, please consider starring ⭐ and cite our paper:
 ```sh
-
+@inproceedings{miao2024fm,
+  title={FM-OSD: Foundation Model-Enabled One-Shot Detection of Anatomical Landmarks},
+  author={Miao, Juzheng and Chen, Cheng and Zhang, Keli and Chuai, Jie and Li, Quanzheng and Heng, Pheng-Ann},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={297--307},
+  year={2024},
+  organization={Springer}
+}
 ```
 
